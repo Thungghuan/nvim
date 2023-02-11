@@ -1,1 +1,1 @@
-print("Hello, nvim!")
+require "options"
