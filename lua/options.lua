@@ -4,6 +4,7 @@ vim.cmd([[
 
 local opt = vim.opt
 
+-- basic options
 opt.number = true
 opt.relativenumber = true
 opt.whichwrap = "bs<>[]hl"
@@ -21,3 +22,10 @@ opt.cmdheight = 2
 opt.scrolloff = 8
 opt.sidescrolloff = 8
 
+-- lazy.nvim runtime path
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+opt.rtp:prepend(lazypath)
+
+-- which-key.nvim plugin
+opt.timeout = true
+opt.timeoutlen = 300
