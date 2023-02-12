@@ -7,14 +7,22 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+-- all mode --
+-- save buffer
+keymap("", "<Leader>w", ":w<CR>", {})
+
+-- nvim-tree
+keymap("", "<Leader>e", ":NvimTreeToggle<CR>", {})
+keymap("", "<Leader>f", ":NvimTreeFindFile<CR>", {})
+
 
 
 -- NORMAL --
 -- navigation between windows
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+keymap("n", "<Leader>h", "<C-w>h", opts)
+keymap("n", "<Leader>j", "<C-w>j", opts)
+keymap("n", "<Leader>k", "<C-w>k", opts)
+keymap("n", "<Leader>l", "<C-w>l", opts)
 
 
 

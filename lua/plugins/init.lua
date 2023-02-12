@@ -7,14 +7,31 @@ if not vim.loop.fs_stat(lazypath) then
     "--filter=blob:none",
     "https://github.com/folke/lazy.nvim.git",
     "--branch=stable", -- latest stable release
-    lazypath,
+    [[ lazypath, ]]
   })
 end
 
-require("lazy").setup({
-  { "folke/tokyonight.nvim" },
+require("lazy").setup(
+  {
+    { "folke/tokyonight.nvim" },
 
+    { "windwp/nvim-autopairs" },
+    { "numToStr/Comment.nvim" },
+    { "folke/which-key.nvim" },
+    { "nvim-tree/nvim-tree.lua" },
+    { "nvim-tree/nvim-web-devicons" },
+    { "akinsho/bufferline.nvim" },
 
-  { "folke/which-key.nvim" },
-})
+    { "lewis6991/gitsigns.nvim" },
+  },
+  {
+    install = { colorscheme = { "tokyonight" } },
+  }
+)
+
+require "plugins.autopairs"
+require "plugins.comment"
+require "plugins.tree"
+require "plugins.bufferline"
+require "plugins.gitsigns"
 
