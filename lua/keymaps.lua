@@ -18,7 +18,7 @@ keymap("", "<Leader>f", ":NvimTreeFindFile<CR>", opts)
 -- Move text up and down
 keymap("", "<M-j>", "<ESC>:m .+1<CR>", opts)
 keymap("", "<M-k>", "<ESC>:m .-2<CR>", opts)
-keymap("", "?", "<ESC>:m .+1<CR>", opts)
+keymap("", "∆", "<ESC>:m .+1<CR>", opts)
 keymap("", "˚", "<ESC>:m .-2<CR>", opts)
 
 
@@ -50,6 +50,7 @@ keymap("i", "<C-h>", "<Left>", opts)
 keymap("i", "<C-j>", "<Down>", opts)
 keymap("i", "<C-k>", "<Up>", opts)
 keymap("i", "<C-l>", "<Right>", opts)
+keymap("i", "<C-Enter>", "<ESC>o", opts)
 
 
 
