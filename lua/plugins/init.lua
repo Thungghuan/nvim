@@ -31,7 +31,7 @@ require("lazy").setup(
 
 require "plugins.autopairs"
 require "plugins.comment"
-require "plugins.tree"
+require "plugins.nvim-tree"
 require "plugins.bufferline"
 require "plugins.gitsigns"
 

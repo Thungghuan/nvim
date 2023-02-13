@@ -21,6 +21,7 @@ opt.clipboard = "unnamedplus"
 opt.cmdheight = 2
 opt.scrolloff = 8
 opt.sidescrolloff = 8
+opt.signcolumn = "yes"
 
 -- lazy.nvim runtime path
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

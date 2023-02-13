@@ -6,9 +6,9 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 require("nvim-tree").setup({
-  git = {
-    show_on_dirs = false
-  }
+  filters = {
+    custom = { "^\\.git" }
+  }   
 })
 
 -- open nvim-tree at startup
