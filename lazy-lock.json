@@ -3,6 +3,7 @@
   "bufferline.nvim": { "branch": "main", "commit": "84b0822b2af478d0b4f7b0f9249ca218855331db" },
   "gitsigns.nvim": { "branch": "main", "commit": "f29f0b22fd66c910b892aae3bc18a4872c002738" },
   "lazy.nvim": { "branch": "main", "commit": "06f835d0b4b62d9d26fe0ec4190b981f2f5632d2" },
+  "lualine.nvim": { "branch": "master", "commit": "0050b308552e45f7128f399886c86afefc3eb988" },
   "nvim-autopairs": { "branch": "master", "commit": "45ae3122a4c7744db41298b41f9f5a3f092123e6" },
   "nvim-tree.lua": { "branch": "master", "commit": "36e29c3a95ae606449f6616a0d8ab7247af807dc" },
   "nvim-web-devicons": { "branch": "master", "commit": "bd7a222287c5828cd0607cd0a5605e52f0460074" },

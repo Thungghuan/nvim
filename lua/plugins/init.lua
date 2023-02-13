@@ -21,7 +21,7 @@ require("lazy").setup(
     { "nvim-tree/nvim-tree.lua" },
     { "nvim-tree/nvim-web-devicons" },
     { "akinsho/bufferline.nvim" },
-
+    { "nvim-lualine/lualine.nvim" },
     { "lewis6991/gitsigns.nvim" },
   },
   {
@@ -34,4 +34,5 @@ require "plugins.comment"
 require "plugins.nvim-tree"
 require "plugins.bufferline"
 require "plugins.gitsigns"
+require "plugins.lualine"
 
