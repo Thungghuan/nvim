@@ -34,6 +34,9 @@ keymap("n", "<Leader>l", "<C-w>l", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 
+-- open toggleterm terminal
+keymap("n", "<Leader>`", ":ToggleTerm<CR>", opts)
+
 
 
 -- INSERT --

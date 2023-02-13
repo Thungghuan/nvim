@@ -23,6 +23,8 @@ require("lazy").setup(
     { "akinsho/bufferline.nvim" },
     { "nvim-lualine/lualine.nvim" },
     { "lewis6991/gitsigns.nvim" },
+
+    { "akinsho/toggleterm.nvim" },
   },
   {
     install = { colorscheme = { "tokyonight" } },
@@ -35,4 +37,5 @@ require "plugins.nvim-tree"
 require "plugins.bufferline"
 require "plugins.gitsigns"
 require "plugins.lualine"
+require "plugins.toggleterm"
 
