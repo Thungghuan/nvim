@@ -14,6 +14,7 @@ end
 require("lazy").setup(
   {
     { "folke/tokyonight.nvim" },
+    { "goolord/alpha-nvim" },
 
     { "windwp/nvim-autopairs" },
     { "numToStr/Comment.nvim" },
@@ -38,4 +39,5 @@ require "plugins.bufferline"
 require "plugins.gitsigns"
 require "plugins.lualine"
 require "plugins.toggleterm"
+require "plugins.alpha"
 

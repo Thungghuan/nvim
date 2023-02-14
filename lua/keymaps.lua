@@ -9,7 +9,7 @@ vim.g.maplocalleader = " "
 
 -- all mode --
 -- save buffer
-keymap("", "<Leader>w", ":w<CR>", opts)
+keymap("", "<Leader>s", ":w<CR>", opts)
 
 -- nvim-tree
 keymap("", "<Leader>e", ":NvimTreeToggle<CR>", opts)
@@ -29,6 +29,12 @@ keymap("n", "<Leader>h", "<C-w>h", opts)
 keymap("n", "<Leader>j", "<C-w>j", opts)
 keymap("n", "<Leader>k", "<C-w>k", opts)
 keymap("n", "<Leader>l", "<C-w>l", opts)
+
+-- move windows
+keymap("n", "<Leader>wh", "<C-w>H", opts)
+keymap("n", "<Leader>wj", "<C-w>J", opts)
+keymap("n", "<Leader>wk", "<C-w>K", opts)
+keymap("n", "<Leader>wl", "<C-w>L", opts)
 
 -- navigation between buffers
 keymap("n", "<S-h>", ":bprevious<CR>", opts)

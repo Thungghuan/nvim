@@ -8,7 +8,15 @@ vim.opt.termguicolors = true
 require("nvim-tree").setup({
   filters = {
     custom = { "^\\.git" }
-  }   
+  },
+  view = {
+    mappings = {
+      list = {
+        { key = "h", action = "close_node" },
+        { key = "v", cb = require("nvim-tree.config").nvim_tree_callback "vsplit" },
+      },
+    },
+  },
 })
 
 -- open nvim-tree at startup

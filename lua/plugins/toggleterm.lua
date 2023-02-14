@@ -4,7 +4,7 @@ toggleterm.setup({
   direction = 'float',
 })
 
-function set_terminal_keymaps()
+local function set_terminal_keymaps()
   local opts = { buffer = 0 }
   vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], opts)
   vim.keymap.set('t', 'jj', [[<C-\><C-n>]], opts)

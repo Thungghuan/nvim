@@ -22,6 +22,7 @@ opt.cmdheight = 2
 opt.scrolloff = 8
 opt.sidescrolloff = 8
 opt.signcolumn = "yes"
+opt.splitright = true
 
 -- lazy.nvim runtime path
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -30,3 +31,4 @@ opt.rtp:prepend(lazypath)
 -- which-key.nvim plugin
 opt.timeout = true
 opt.timeoutlen = 300
+
