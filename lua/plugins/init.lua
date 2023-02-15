@@ -24,6 +24,7 @@ require("lazy").setup(
     { "akinsho/bufferline.nvim" },
     { "nvim-lualine/lualine.nvim" },
     { "lewis6991/gitsigns.nvim" },
+    { "nvim-treesitter/nvim-treesitter" },
 
     { "akinsho/toggleterm.nvim" },
   },
