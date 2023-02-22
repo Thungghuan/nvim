@@ -9,6 +9,9 @@ require("nvim-tree").setup({
   filters = {
     custom = { "^\\.git" }
   },
+  renderer = {
+    root_folder_label = ":t"
+  },
   view = {
     mappings = {
       list = {
